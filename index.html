@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  <div id="whole-container">
+  <div id="result-container">
+    <p>Your Result</p>
+    <div id="score-container">
+      <p>76</p>
+      <p>of 100</p>
+    </div>
+    <p>Great</p>
+    <p>You scored higher than 65% of the people who have taken these tests.</p>
+  </div>
+
+  <div id="summary-container">
+    <p style="color: hsl(224, 30%, 27%); font-weight: 700; font-size: 20px; margin-right: auto; margin-left: 40px; margin-bottom: -20px;">Summary</p>
+
+    <div id="reaction-container" class="tab" style="background: hsla(0, 100%, 67%, 0.1); color: hsla(0, 100%, 67%, 0.7)">
+      <img src="./assets/images/icon-reaction.svg" style="height: 30px; width: 30px;">
+      <p>Reaction</p>
+      <div style="display:flex; flex-direction: row;">
+        <p style="color: hsl(224, 30%, 27%); margin-right: 5px;">80</p>
+        <p style="color: hsla(224, 30%, 27%, 0.4)">/ 100</p>
+      </div>
+    </div>
+
+    <div id="memory-container" class="tab" style="background: hsla(39, 100%, 56%, 0.1); color: hsla(39, 100%, 56%, 0.7)">
+      <img src="./assets/images/icon-memory.svg" style="height: 30px; width: 30px;">
+      <p>Memory</p>
+      <div style="display:flex; flex-direction: row;">
+        <p style="color: hsl(224, 30%, 27%);margin-right: 5px;">80</p>
+        <p style="color: hsla(224, 30%, 27%, 0.4)">/ 100</p>
+      </div>
+    </div>
+
+    <div id="verbal-container" class="tab" style="background: hsla(166, 100%, 37%,0.1); color: hsla(166, 100%, 37%,0.7)">
+    <img src="./assets/images/icon-verbal.svg" style="height: 30px; width: 30px;">      
+    <p>Verbal</p>
+      <div style="display:flex; flex-direction: row;">
+        <p style="color: hsl(224, 30%, 27%);margin-right: 5px;">80</p>
+        <p style="color: hsla(224, 30%, 27%, 0.4)">/ 100</p>
+      </div>
+    </div>
+    
+    <div id="visual-container" class="tab" style="background: hsla(234, 85%, 45%,0.1); color: hsla(234, 85%, 45%, 0.7)">
+      <img src="./assets/images/icon-visual.svg" style="height: 30px; width: 30px;">
+      <p>Visual</p>
+      <div style="display:flex; flex-direction: row;">
+        <p style="color: hsl(224, 30%, 27%);margin-right: 5px;">80</p>
+        <p style="color: hsla(224, 30%, 27%, 0.4)">/ 100</p>
+      </div>
+    </div>
+    <button id="continue-button">Continue</button>
+  </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Thomas Percival</a>.
+  </div>
+</body>
+</html>
